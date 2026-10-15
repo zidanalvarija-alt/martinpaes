@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Keunggulan Docmart – Penjual Sepatu Dr. Martens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EDECE8;--surface:#fff;--ink:#1A1816;--muted:#5d5a55;--stitch:#E8B800;--line:#cfcdc7;--btn:#1A1816;--btnt:#fff;--dark:#1A1816;--darkt:#EDECE8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141311;--surface:#1f1d1a;--ink:#f1efe9;--muted:#a5a29b;--line:#3a3732;--btn:#E8B800;--btnt:#1A1816;--dark:#0c0b0a;--darkt:#f1efe9;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141311;--surface:#1f1d1a;--ink:#f1efe9;--muted:#a5a29b;--line:#3a3732;--btn:#E8B800;--btnt:#1A1816;--dark:#0c0b0a;--darkt:#f1efe9;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Work Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;line-height:1.08;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--stitch);outline-offset:2px}
+header{display:flex;align-items:center;justify-content:space-between;padding:14px 5vw;border-bottom:2px dashed var(--stitch);position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+.logo{font:24px "Archivo Black",Impact,sans-serif;text-decoration:none}
+nav{display:flex;gap:22px;align-items:center}
+nav a{text-decoration:none;font-weight:500}
+.btn{display:inline-block;background:var(--btn);color:var(--btnt);padding:13px 24px;border-radius:4px;font-weight:600;text-decoration:none}
+.wrap{max-width:1100px;margin:auto;padding:0 5vw}
+.hero{padding:9vw 0 7vw;max-width:1100px;margin:auto;padding-left:5vw;padding-right:5vw}
+.hero h1{font-size:clamp(40px,7.5vw,92px);letter-spacing:-2px;max-width:14ch}
+.hero p{max-width:52ch;font-size:19px;color:var(--muted);margin:22px 0 30px}
+.band{background:var(--dark);color:var(--darkt);padding:22px 5vw;display:flex;flex-wrap:wrap;gap:10px 34px;font-weight:500}
+section{padding:72px 0}
+h2{font-size:clamp(28px,4.5vw,44px);margin-bottom:12px}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 36px}
+.adv{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:0;border:2px dashed var(--stitch);border-radius:10px;overflow:hidden}
+.adv>div{padding:26px;background:var(--surface);border:1px solid var(--line);margin:-1px 0 0 -1px}
+.adv h3{font-size:20px;margin-bottom:8px}
+.adv p{margin:0;color:var(--muted)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;gap:14px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:48px 1fr;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px}
+.steps li::before{content:counter(s);font:22px "Archivo Black",Impact,sans-serif;background:var(--stitch);color:#1A1816;width:48px;height:48px;border-radius:50%;display:grid;place-items:center}
+.steps b{display:block;margin-bottom:2px}
+.steps span{color:var(--muted)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;font-size:15px}
+td:first-child{font-weight:600}
+td:nth-child(2){background:color-mix(in srgb,var(--stitch) 16%,transparent)}
+tr:last-child td{border-bottom:0}
+details{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+details p{margin:10px 0 0;color:var(--muted)}
+.cta{background:var(--dark);color:var(--darkt);border-radius:12px;padding:clamp(30px,6vw,64px);border:2px dashed var(--stitch)}
+.cta p{max-width:50ch;opacity:.85;margin:12px 0 26px}
+.cta .btn{background:var(--stitch);color:#1A1816}
+footer{padding:30px 5vw 40px;color:var(--muted);font-size:14px;max-width:1100px;margin:auto}
+@media(max-width:700px){nav a.hide{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#">DOCMART</a>
+  <nav>
+    <a class="hide" href="#keunggulan">Keunggulan</a>
+    <a class="hide" href="#keaslian">Keaslian</a>
+    <a class="hide" href="#faq">FAQ</a>
+    <a class="btn" href="#kontak">Hubungi kami</a>
+  </nav>
+</header>
+
+<main>
+<div class="hero">
+  <h1>Beli Dr. Martinpaes dengan tenang.</h1>
+  <p>PT. Zidane menjual sepatu Dr. Martinpaes untuk pelanggan di Indonesia. Kami fokus pada tiga hal: produk yang terjamin asli, ukuran yang pas, dan layanan yang tetap membantu setelah kamu membayar.</p>
+  <a class="btn" href="#keunggulan">Lihat keunggulan kami</a>
+</div>
+<div class="band"><span>Produk asli</span><span>Bisa tukar ukuran</span><span>Dikirim ke seluruh Indonesia</span><span>Layanan via WhatsApp</span></div>
+
+<section id="keunggulan"><div class="wrap">
+  <h2>Kenapa pelanggan memilih Docmart</h2>
+  <p class="lead">Enam alasan utama kami berbeda dari penjual lain.</p>
+  <div class="adv">
+    <div><h3>Keaslian terjamin</h3><p>Setiap pasang diperiksa sebelum dikirim. Jika terbukti tidak asli, uang kamu kembali penuh.</p></div>
+    <div><h3>Panduan ukuran jujur</h3><p>Dr. Martens baru biasanya terasa kaku dan ukurannya bisa berbeda tiap model. Kami beri saran ukuran per model, bukan asal tebak.</p></div>
+    <div><h3>Tukar ukuran mudah</h3><p>Kalau kurang pas, kamu bisa menukar ukuran dalam batas waktu yang jelas, tanpa proses berbelit.</p></div>
+    <div><h3>Pengemasan aman</h3><p>Kotak asli dilindungi lagi dengan kardus luar dan bubble wrap supaya sampai dalam kondisi rapi.</p></div>
+    <div><h3>Harga transparan</h3><p>Harga di etalase sudah jelas. Ongkir dan biaya lain terlihat sebelum kamu membayar.</p></div>
+    <div><h3>Bantuan perawatan</h3><p>Kami bagikan cara membentuk sepatu baru, merawat kulit, dan menjaga jahitan supaya awet bertahun-tahun.</p></div>
+  </div>
+</div></section>
+
+<section id="keaslian" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+  <h2>Cara kami memastikan sepatu asli</h2>
+  <p class="lead">Urutan pengecekan ini berjalan untuk setiap pesanan.</p>
+  <ol class="steps">
+    <li><div><b>Pembelian dari sumber yang jelas</b><span>Stok hanya berasal dari pemasok yang bisa kami telusuri, dengan dokumen pembelian yang disimpan.</span></div></li>
+    <li><div><b>Pemeriksaan fisik</b><span>Tim memeriksa jahitan kuning, sol, label, kotak, dan kualitas kulit sebelum sepatu masuk gudang.</span></div></li>
+    <li><div><b>Foto dan video sebelum kirim</b><span>Kamu bisa meminta foto atau video sepasang sepatu yang akan dikirim untuk dicek sendiri.</span></div></li>
+    <li><div><b>Garansi uang kembali</b><span>Jika ada keraguan soal keaslian, hubungi kami dan kami proses pengembalian sesuai ketentuan.</span></div></li>
+  </ol>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Beli di Docmartinpaes atau di tempat lain?</h2>
+  <p class="lead">Perbandingan singkat agar kamu bisa menilai sendiri.</p>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th></th><th>Docmart</th><th>Penjual tanpa kejelasan</th></tr></thead>
+      <tbody>
+        <tr><td>Keaslian</td><td>Diperiksa dan bergaransi</td><td>Sulit dipastikan</td></tr>
+        <tr><td>Saran ukuran</td><td>Per model, dari tim kami</td><td>Biasanya tidak ada</td></tr>
+        <tr><td>Tukar ukuran</td><td>Bisa, dengan aturan jelas</td><td>Sering ditolak</td></tr>
+        <tr><td>Bantuan setelah beli</td><td>WhatsApp dan panduan perawatan</td><td>Terbatas</td></tr>
+        <tr><td>Biaya tambahan</td><td>Terlihat sebelum bayar</td><td>Kadang baru muncul di akhir</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+  <h2>Pertanyaan yang sering diajukan</h2>
+  <p class="lead">Belum menemukan jawabanmu? Tanyakan langsung lewat WhatsApp.</p>
+  <details><summary>Apakah semua sepatu di Docmart asli?</summary><p>Ya. Setiap pasang melewati pemeriksaan sebelum dijual, dan kamu berhak mendapat pengembalian dana jika terbukti tidak asli.</p></details>
+  <details><summary>Bagaimana memilih ukuran yang tepat?</summary><p>Kirim panjang telapak kakimu dan model yang diminati. Kami akan menyarankan ukuran. Kebanyakan orang memilih ukuran yang sama dengan sepatu biasa, tetapi ini berbeda tiap model.</p></details>
+  <details><summary>Sepatunya terasa keras, apakah normal?</summary><p>Normal. Kulit Dr. Martens butuh waktu pemakaian untuk menyesuaikan kaki. Pakai kaus kaki tebal selama beberapa hari pertama dan pakai sebentar-sebentar.</p></details>
+  <details><summary>Berapa lama pengiriman?</summary><p>Pesanan dikirim dari gudang kami, dan lama sampainya bergantung kota tujuan. Estimasi akan tertera sebelum kamu membayar.</p></details>
+  <details><summary>Metode pembayaran apa yang tersedia?</summary><p>Transfer bank, QRIS, dan e-wallet. Hubungi kami jika ingin memakai metode lain.</p></details>
+</div></section>
+
+<section id="kontak" style="padding-top:0"><div class="wrap">
+  <div class="cta">
+    <h2>Tanya dulu sebelum membeli.</h2>
+    <p>Kirim model yang kamu incar dan ukuran kakimu. Tim Docmart akan membalas dengan ketersediaan, harga, dan saran ukuran.</p>
+    <a class="btn" href="https://wa.me/628984905908" rel="noopener">Chat WhatsApp</a>
+  </div>
+</div></section>
+</main>
+
+<footer>
+  <p>jika anda tertarik dengan produk kami. cek toko kami di: https://carousell.app.link/QOMMNCmcg7b.</p>
+  <p>© Dr. Martinpaes 2026 · cs@zidandocmartinpaes.com</p>
+</footer>
+</body>
+</html>
